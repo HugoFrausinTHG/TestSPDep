@@ -1,0 +1,6 @@
+2025-02-07 09:23:36.261736Z jdbc[4]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'Tasks with a lot of text will over flow the div. Please handle these. \\000a\\0... (258)"; SQL statement:
+insert into tasks (description,status,title,id) values (?,?,?,?) [22001-232]
+2025-02-07 09:29:42.715236Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'The website should be able to handle text which has overflown.\\000aiqwhefiwhf... (320)"; SQL statement:
+insert into tasks (description,status,title,id) values (?,?,?,?) [22001-232]
